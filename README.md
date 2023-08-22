@@ -15,7 +15,15 @@ Client Requirements
   repaid, and the repayment method (cash or card).
 7. The library has a catalogue of items. For each, they have an item title, item type (which is classified as either a Book, Journal, DVD or Other Media), author, year of publication, date the item was added to the collection, and current status (which is either On Loan, Overdue, Available or Lost/Removed). If the item is identified as being lost or removed from the collection, the library will record the date this was identified. If the item is a book, they will also record the ISBN.
 8. The library wants to also keep a record of all current and past loans. Each loan should specify the member, the item, the date the item was taken out, the date the item is due back, and the date the item was actually returned (this will be NULL if the item is still out). If the item is overdue, an overdue fee needs to be calculated at a rate of 10p per day.
-   jdffpo
+
+Task Details
+
+Design the database system based on the information provided above, along with a number of associated database objects, such as stored procedures, user-defined functions, views, and triggers. You should design and normalize your proposed database into 3NF, You should also consider using constraints when creating your database to help ensure data integrity. 
+
+Below is the entity relationship diagram for the Database I created -
+![Entity Relationship diagram](https://github.com/Muhyd33n/libraryDatabase/assets/55355325/18d199b7-f72a-4607-9d91-e3454c32a067)
+
+
 
 
 
