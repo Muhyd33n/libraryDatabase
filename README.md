@@ -1,4 +1,4 @@
-## SQL Server Management Studio (SSMS) Database EXAMPLE Project
+## SQL Server Management Studio (SSMS) Database Project
 
 A SQL Library Database project designed in SSMS to show how to create a database
 
